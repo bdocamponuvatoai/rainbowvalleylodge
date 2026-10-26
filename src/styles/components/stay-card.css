@@ -1,0 +1,132 @@
+.stay-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.image-link {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.stay-card img {
+  width: 100%;
+  aspect-ratio: 1.17;
+  transition: transform 0.6s;
+}
+.stay-card:hover img {
+  transform: scale(1.025);
+}
+.image-arrow {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  border: 1px solid #ffffff88;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: white;
+  background: #233c3330;
+  font-size: 20px;
+  backdrop-filter: blur(5px);
+}
+.card-copy {
+  padding: 25px 0;
+}
+.card-copy .eyebrow {
+  font-size: 8px;
+  letter-spacing: 1.5px;
+  margin-bottom: 14px;
+}
+.card-copy h3 {
+  font-size: 31px;
+}
+.card-copy p {
+  font-size: 13px;
+  margin: 16px 0;
+  line-height: 1.8;
+  max-width: 340px;
+}
+.card-tags {
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 9px;
+  color: var(--muted);
+}
+.card-tags span + span:before {
+  content: "·";
+  margin-right: 16px;
+}
+.stay-list {
+  grid-template-columns: 1fr 1fr;
+  gap: 55px 35px;
+}
+.stay-list .card-copy h3 {
+  font-size: 38px;
+}
+.stay-list .stay-card img {
+  aspect-ratio: 1.45;
+}
+.stay-list .card-copy p {
+  max-width: 480px;
+}
+.stay-card[hidden] {
+  display: none;
+}
+@media (max-width: 900px) {
+  .stay-grid {
+    gap: 22px;
+  }
+  .home-stays .stay-card img {
+    aspect-ratio: 0.85;
+  }
+  .card-copy h3 {
+    font-size: 27px;
+  }
+  .card-copy p {
+    font-size: 12px;
+  }
+  .card-tags {
+    gap: 8px;
+  }
+  .card-tags span + span:before {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  .stay-grid,
+  .stay-list {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .home-stays .stay-card img,
+  .stay-list .stay-card img {
+    aspect-ratio: 1.25;
+  }
+  .card-copy {
+    padding: 22px 0 15px;
+  }
+  .card-copy h3 {
+    font-size: 32px;
+  }
+  .card-copy .eyebrow {
+    font-size: 8px;
+  }
+  .card-copy p {
+    font-size: 13px;
+    max-width: none;
+  }
+  .card-tags {
+    font-size: 9px;
+    gap: 20px;
+  }
+  .card-tags span + span:before {
+    display: inline;
+    margin-right: 20px;
+  }
+}

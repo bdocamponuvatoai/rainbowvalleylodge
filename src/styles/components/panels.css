@@ -1,0 +1,107 @@
+.note-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--sand);
+  padding: 40px;
+  gap: 60px;
+  margin-top: 50px;
+}
+.note-panel p {
+  font-size: 13px;
+  max-width: 580px;
+  margin-top: 15px;
+}
+.note-panel .text-link,
+.note-panel .button {
+  flex-shrink: 0;
+}
+.feature-list {
+  padding: 0;
+  list-style: none;
+  margin: 38px 0 0;
+}
+.feature-list li {
+  border-top: 1px solid var(--line);
+  padding: 15px 0 15px 24px;
+  font-size: 13px;
+  position: relative;
+}
+.feature-list li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+}
+.reservation-card {
+  background: #eae8df;
+  padding: 35px;
+  align-self: start;
+}
+.reservation-card h3 {
+  font-size: 36px;
+}
+.reservation-card p {
+  font-size: 13px;
+}
+.reservation-card .button {
+  margin-top: 25px;
+  width: 100%;
+  font-size: 11px;
+  gap: 15px;
+}
+.reservation-card .small-note {
+  margin-top: 14px;
+  font-size: 10px;
+}
+.reservation-card hr {
+  border: 0;
+  border-top: 1px solid #cbd0c5;
+  margin: 30px 0 0;
+}
+.phone-link {
+  display: block;
+  font-family: var(--serif);
+  font-size: 27px;
+  margin: 6px 0;
+}
+.reservation-card .text-link {
+  font-size: 10px;
+  gap: 10px;
+}
+@media (max-width: 900px) {
+  .reservation-card {
+    padding: 25px;
+  }
+  .reservation-card h3 {
+    font-size: 32px;
+  }
+  .note-panel {
+    gap: 35px;
+    padding: 30px;
+  }
+  .note-panel .text-link {
+    max-width: 210px;
+  }
+}
+@media (max-width: 640px) {
+  .note-panel {
+    display: block;
+    padding: 28px;
+    margin-top: 30px;
+  }
+  .note-panel h3 {
+    font-size: 28px;
+  }
+  .note-panel .text-link {
+    max-width: none;
+  }
+  .note-panel .button {
+    margin-top: 25px;
+  }
+  .feature-list li {
+    font-size: 12px;
+  }
+  .reservation-card {
+    padding: 30px;
+  }
+}

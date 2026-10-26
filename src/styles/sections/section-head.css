@@ -1,0 +1,29 @@
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 45px;
+  margin-bottom: 45px;
+}
+.section-head p {
+  margin-top: 0;
+}
+.section-head .text-link {
+  flex-shrink: 0;
+  margin-bottom: 5px;
+}
+@media (max-width: 640px) {
+  .section-head {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .section-head > .text-link {
+    margin-top: 22px;
+  }
+  .section-head > div + div {
+    margin-top: 24px;
+  }
+  .section-head p {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,26 @@
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: start;
+}
+.two-column p:first-child {
+  margin-top: 0;
+}
+.two-column p {
+  max-width: 550px;
+}
+@media (max-width: 1150px) {
+  .two-column {
+    gap: 60px;
+  }
+}
+@media (max-width: 640px) {
+  .two-column {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .two-column .lead {
+    font-size: 20px;
+  }
+}

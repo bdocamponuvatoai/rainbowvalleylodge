@@ -1,0 +1,33 @@
+.faq-section {
+  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 100px;
+}
+.faq-section > div > p {
+  max-width: 330px;
+}
+@media (max-width: 1150px) {
+  .faq-section {
+    gap: 60px;
+  }
+}
+@media (max-width: 900px) {
+  .faq-section {
+    gap: 45px;
+    grid-template-columns: 0.8fr 1.2fr;
+  }
+}
+@media (max-width: 640px) {
+  .faq-section {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+  .faq-section h2 {
+    font-size: 41px;
+  }
+  .faq-section summary {
+    font-size: 12px;
+    padding: 19px 0;
+  }
+}

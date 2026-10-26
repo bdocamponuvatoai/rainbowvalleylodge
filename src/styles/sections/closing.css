@@ -1,0 +1,44 @@
+.closing {
+  position: relative;
+  min-height: 440px;
+  color: var(--cream);
+}
+.closing > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-position: 50% 55%;
+}
+.closing:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #0e2a20e6, #0e2a2040);
+}
+.closing-inner {
+  position: relative;
+  z-index: 1;
+  padding: 75px 0;
+}
+.closing h2 {
+  font-size: 60px;
+  margin-bottom: 28px;
+}
+.closing .eyebrow {
+  font-size: 9px;
+}
+@media (max-width: 640px) {
+  .closing {
+    min-height: 400px;
+  }
+  .closing-inner {
+    padding: 65px 0;
+  }
+  .closing h2 {
+    font-size: 49px;
+  }
+  .closing > img {
+    object-position: 58% center;
+  }
+}

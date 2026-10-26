@@ -1,0 +1,160 @@
+.room-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.photo-tile {
+  display: block;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  background: var(--sand);
+  width: 100%;
+}
+.photo-tile > img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1.5;
+  transition: transform 0.5s;
+}
+.photo-tile:hover img {
+  transform: scale(1.03);
+}
+.photo-tile > span {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  background: #f7f4e8dc;
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+.gallery-grid .photo-tile:nth-child(6n + 1) {
+  grid-column: span 2;
+}
+.gallery-grid .photo-tile > img {
+  aspect-ratio: 1.4;
+  min-height: 280px;
+  max-height: 440px;
+}
+.gallery-grid .photo-tile:nth-child(6n + 1) > img {
+  aspect-ratio: 2.2;
+}
+.photo-dialog {
+  width: min(1100px, 95vw);
+  max-height: 94vh;
+  background: #12251e;
+  border: 0;
+  padding: 30px;
+  color: #f5f3e7;
+}
+.photo-dialog::backdrop {
+  background: #07150eeb;
+  backdrop-filter: blur(7px);
+}
+.photo-dialog figure {
+  margin: 0;
+}
+.photo-dialog figure > img {
+  width: 100%;
+  height: 70vh;
+  object-fit: contain;
+}
+.photo-dialog figcaption {
+  font-size: 12px;
+  margin-top: 15px;
+}
+.dialog-close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--cream);
+  color: var(--ink);
+  font-size: 26px;
+  z-index: 2;
+}
+.photo-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 10px;
+}
+.photo-controls button {
+  width: 45px;
+  height: 40px;
+  background: none;
+  color: var(--cream);
+  border: 1px solid #ffffff40;
+}
+.photo-controls span {
+  font-size: 11px;
+}
+@media (max-width: 900px) {
+  .gallery-grid {
+    gap: 15px;
+  }
+  .gallery-grid .photo-tile > img {
+    min-height: 240px;
+  }
+}
+@media (max-width: 640px) {
+  .room-gallery {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .gallery-grid .photo-tile:nth-child(6n + 1) {
+    grid-column: span 2;
+  }
+  .gallery-grid .photo-tile > img {
+    min-height: 190px;
+    aspect-ratio: 0.85;
+  }
+  .gallery-grid .photo-tile:nth-child(6n + 1) > img {
+    aspect-ratio: 1.4;
+  }
+  .photo-tile > span {
+    width: 28px;
+    height: 28px;
+    font-size: 17px;
+    bottom: 10px;
+    right: 10px;
+  }
+  .photo-dialog {
+    padding: 15px;
+    max-height: 90vh;
+  }
+  .photo-dialog figure > img {
+    height: 60vh;
+  }
+  .photo-dialog figcaption {
+    font-size: 11px;
+  }
+}
+@media (max-width: 360px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+  .gallery-grid .photo-tile:nth-child(6n + 1) {
+    grid-column: auto;
+  }
+  .gallery-grid .photo-tile > img {
+    aspect-ratio: 1.2;
+    min-height: 0;
+  }
+}

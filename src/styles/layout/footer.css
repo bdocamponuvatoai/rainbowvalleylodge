@@ -1,0 +1,134 @@
+.footer-main {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.15fr;
+  gap: 40px;
+  padding-block: 75px 55px;
+}
+footer {
+  background: #1c322a;
+  color: #eaece2;
+}
+.footer-main .brand {
+  font-size: 23px;
+}
+.footer-main .brand-emblem {
+  background: none;
+  border: 1px solid #ffffff25;
+}
+.footer-main p {
+  color: #abb7ad;
+  font-size: 12px;
+  margin: 22px 0;
+}
+.footer-main h3 {
+  font-family: var(--font);
+  font-size: 9px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 10px 0 24px;
+}
+.footer-main > div > a:not(.brand) {
+  display: block;
+  font-size: 11px;
+  color: #c3ccc3;
+  margin: 10px 0;
+}
+.footer-main a:hover {
+  color: white;
+}
+.footer-main > div > a.footer-phone {
+  font-family: var(--serif);
+  font-size: 23px;
+  color: #f4f3e9;
+}
+.footer-detail {
+  font-size: 10px;
+  color: #a2b1a5;
+}
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border-top: 1px solid #ffffff20;
+  padding: 25px 0;
+  color: #aeb9af;
+  font-size: 9px;
+}
+.footer-bottom > a:last-child {
+  margin-left: auto;
+}
+@media (max-width: 1150px) {
+  .footer-main {
+    gap: 25px;
+  }
+  .footer-main .brand {
+    font-size: 19px;
+  }
+  .footer-main .brand-emblem {
+    width: 43px;
+    height: 43px;
+  }
+  .footer-main .brand small {
+    font-size: 6px;
+    letter-spacing: 1.5px;
+  }
+}
+@media (max-width: 900px) {
+  .footer-main {
+    grid-template-columns: 1.4fr 1fr;
+    gap: 45px;
+  }
+  .footer-main .brand {
+    font-size: 26px;
+  }
+  .footer-main .brand small {
+    font-size: 8px;
+  }
+  .footer-main .brand-emblem {
+    width: 52px;
+    height: 52px;
+  }
+}
+@media (max-width: 640px) {
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 25px;
+    padding-block: 50px 35px;
+  }
+  .footer-main > div:first-child {
+    grid-column: 1/-1;
+  }
+  .footer-main > div:last-child {
+    grid-column: 1/-1;
+    border-top: 1px solid #ffffff20;
+    padding-top: 15px;
+  }
+  .footer-main .brand {
+    font-size: 27px;
+  }
+  .footer-main h3 {
+    font-size: 8px;
+    letter-spacing: 0.6px;
+    margin: 0 0 20px;
+  }
+  .footer-main p {
+    font-size: 11px;
+  }
+  .footer-main > div > a:not(.brand) {
+    font-size: 10px;
+  }
+  .footer-main > div > a.footer-phone {
+    font-size: 24px;
+  }
+  .footer-bottom {
+    flex-wrap: wrap;
+    gap: 14px 24px;
+    font-size: 8px;
+    line-height: 1.8;
+    padding-block: 20px;
+  }
+  .footer-bottom > a:last-child {
+    margin-left: 0;
+  }
+}

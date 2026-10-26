@@ -1,0 +1,81 @@
+.detail-head {
+  padding: 55px 0 45px;
+}
+.back-link {
+  display: block;
+  font-size: 11px;
+  margin-bottom: 45px;
+}
+.detail-head h1 {
+  font-size: 80px;
+}
+.detail-head p {
+  max-width: 650px;
+  font-size: 16px;
+}
+.detail-photo img {
+  width: 100%;
+  height: 570px;
+}
+.detail-content {
+  display: grid;
+  grid-template-columns: 1.4fr 0.85fr;
+  gap: 100px;
+}
+.detail-content h2 {
+  margin-bottom: 32px;
+}
+.detail-content .lead {
+  font-size: 19px;
+}
+@media (max-width: 1150px) {
+  .detail-content {
+    gap: 60px;
+  }
+}
+@media (max-width: 900px) {
+  .detail-head h1 {
+    font-size: 64px;
+  }
+  .detail-photo img {
+    height: 450px;
+  }
+  .detail-content {
+    gap: 40px;
+    grid-template-columns: 1.2fr 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .detail-head {
+    padding: 28px 0 32px;
+  }
+  .back-link {
+    margin-bottom: 30px;
+    font-size: 10px;
+  }
+  .detail-head h1 {
+    font-size: 49px;
+  }
+  .detail-head p {
+    font-size: 13px;
+  }
+  .detail-photo {
+    width: 100%;
+  }
+  .detail-photo img {
+    height: 330px;
+  }
+  .detail-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .detail-content .lead {
+    font-size: 18px;
+  }
+}
+@media (max-width: 360px) {
+  .detail-photo {
+    /* Legacy cascade: the global .container rule at this breakpoint won here. */
+    width: calc(100% - 32px);
+  }
+}

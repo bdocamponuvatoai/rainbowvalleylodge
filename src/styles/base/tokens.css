@@ -1,0 +1,12 @@
+:root {
+  --font: var(--font-inter), Arial, sans-serif;
+  --ink: #233c33;
+  --green: #213d32;
+  --cream: #f6f4ed;
+  --paper: #fffdf7;
+  --sand: #e9e5da;
+  --muted: #68726a;
+  --line: #d8dcd2;
+  --gold: #ae794f;
+  --serif: Georgia, "Times New Roman", serif;
+}

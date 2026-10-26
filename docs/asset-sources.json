@@ -1,0 +1,117 @@
+{
+  "logo": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2018/01/New-RVL-Logo-White-80.png",
+    "alt": "Rainbow Valley Lodge Logo",
+    "size": [80, 80]
+  },
+  "lodge": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2026/05/Rainbow-Valley-exterior-7-full-scaled.jpg",
+    "alt": "Lodge Rooms & Cabins in Ennis, Montana Near the Madison River",
+    "size": [2560, 1714]
+  },
+  "hosts": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2018/01/Ed-and-Jeanne-Williams-at-Rainbow-Valley-Lodge.jpg",
+    "alt": "Ed-and-Jeanne-Williams-at-Rainbow-Valley-Lodge",
+    "size": [650, 305]
+  },
+  "fishing": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2025/04/484325449_1199050455554161_4637485131644473667_n-3-1024x684.jpg",
+    "alt": "Guided Fly Fishing Trips on the Madison River in Montana",
+    "size": [1024, 684]
+  },
+  "fly-shop": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2018/01/RVL-fly-shop-3-1.jpg",
+    "alt": "Madison River Fly Shop - Experts in the Madison River - O'Dell Creek Fly Shop",
+    "size": [600, 400]
+  },
+  "creek": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2025/04/346097595_486007377004361_3923863677544492628_n-1024x768.jpg",
+    "alt": "O'Dell Spring Creek in Ennis, Montana",
+    "size": [1024, 768]
+  },
+  "valley": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2018/01/Madison-Valley-Ranch-Jeffers-MT.jpg",
+    "alt": "Madison Valley Horse Ranch in Jeffers, Montana",
+    "size": [600, 400]
+  },
+  "river": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2018/02/Madison-River-Below-Hebgen-Lake-West-Yellowstone-MT.jpg",
+    "alt": "Madison River Below Hebgen Lake, West Yellowstone MT",
+    "size": [600, 397]
+  },
+  "queen": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2022/05/Rm23-25-26-scaled.jpg",
+    "alt": "",
+    "size": [2560, 1707]
+  },
+  "suite": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2022/05/IMG_2991-1024x711.jpg",
+    "alt": "Rainbow Valley Lodge Suites",
+    "size": [1024, 711]
+  },
+  "suite-kitchen": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2018/02/Rainbow-Valley-Lodge-Unit-29-Kitchen-1.jpg",
+    "alt": "Rainbow Valley Lodge Suites",
+    "size": [600, 402]
+  },
+  "trapper": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2021/08/Exterior-of-the-Trapper-Cabin-1.jpg",
+    "alt": "",
+    "size": [600, 400]
+  },
+  "trapper-bedroom": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2021/08/Trapper-Cabin-Bedroom.jpg",
+    "alt": "",
+    "size": [600, 400]
+  },
+  "trapper-porch": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2021/08/Porch-of-the-Trapper-Cabin.jpg",
+    "alt": "Porch of the Trapper Cabin",
+    "size": [600, 400]
+  },
+  "trapper-kitchen": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2021/08/Kitchen-2.jpg",
+    "alt": "",
+    "size": [600, 400]
+  },
+  "cbar": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2018/02/C-Bar-3.jpg",
+    "alt": "C Bar 3 Cabin",
+    "size": [1280, 500]
+  },
+  "cbar-bedroom": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2018/02/Bedroom-C-Bar-3.jpg",
+    "alt": "Queen bedroom in log cabin, c bar 3",
+    "size": [600, 400]
+  },
+  "cbar-kitchen": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2018/02/Kitchen-C-Bar-3.jpg",
+    "alt": "C Bar 3 Kitchen",
+    "size": [600, 400]
+  },
+  "virginia-city": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2018/01/Rainbow-Valley-Virginia-City.jpg",
+    "alt": "Rainbow-Valley-Virginia-City",
+    "size": [1280, 400]
+  },
+  "yellowstone": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2018/01/Yellowstone-River-Upper-Falls.jpg",
+    "alt": "Upper Falls of the Yellowstone River",
+    "size": [1280, 400]
+  },
+  "quake-lake": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2018/01/Earthquake-Lake-Visitor-Center.jpg",
+    "alt": "Earthquake-Lake-Visitor-Center",
+    "size": [1280, 500]
+  },
+  "pool": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2018/01/Rainbow-Valley-pool-1.jpg",
+    "alt": "Pool at the Rainbow Valley Lodge in Ennis Montana",
+    "size": [1280, 500]
+  },
+  "double": {
+    "url": "https://rainbowvalleylodge.com/wp-content/uploads/2022/05/Rm152.jpg",
+    "alt": "Double Queen Rooms at the Rainbow Valley Lodge in Ennis Montana",
+    "size": [2289, 1728]
+  }
+}

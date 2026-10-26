@@ -1,0 +1,39 @@
+.faq-list {
+  border-top: 1px solid var(--line);
+}
+details {
+  border-bottom: 1px solid var(--line);
+}
+summary {
+  list-style: none;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 23px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  line-height: 1.7;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+summary span {
+  font-size: 23px;
+  font-weight: 300;
+}
+details[open] summary span {
+  transform: rotate(45deg);
+}
+.answer {
+  padding: 0 35px 24px 0;
+}
+.answer p {
+  margin-top: 0;
+  font-size: 13px;
+}
+@media (max-width: 640px) {
+  .answer p {
+    font-size: 12px;
+  }
+}
